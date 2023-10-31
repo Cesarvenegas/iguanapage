@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h1{
+
+    text-align: center ; color: white;
+    background-color: black;
+}
+
+header{
+
+    width: 100%;
+    height: auto;
+}
+
+
+header img{
+
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+main{
+
+    display: flex;
+    gap: 150px;
+    background-color: black;
+    padding: 100px;
+    
+   
+
+}
+main p{
+    font-size: large; color: white;
+    padding: 40px;
+
+}
+
+main img{
+
+    width: 450px;
+    height: 250px;
+}
+
+
+
+.box{
+
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px ; color: white;
+    text-align: center;
+
+    
+}
+
+.boxes{
+    font-weight: 100;
+    font-size: 20px;
+    background: #1E1A13;
+    opacity: 0.98;
+    padding: 60px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 45px;
+}
+
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    background-color: black;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.card img{
+     width: 300px;
+     height: 200px;
+     
+}
+
+footer{
+   
+    line-height: 3em;
+    color:white;
+    text-align: center;
+    background: #1E1A13;
+    opacity: 0.94;
+
+}
+footer a{
+
+    color: white;
+}
+
+
+.box1:hover{
+
+    color: rgb(201, 58, 33);
+    transition: background-color 0.5s;
+}
+
+.box1:active{
+
+    color: chartreuse;
+    transition: background-color 0.5s;
+}
